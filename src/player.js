@@ -21,6 +21,7 @@ class Player extends GameObject {
 		this.playerMaterial = new BABYLON.StandardMaterial("Player Material", scene);
 		this.playerMesh.material = this.playerMaterial;
 		this.playerMesh.material.diffuseColor = BABYLON.Color3.White();
+
 	}
 
 	onDestroy() {
